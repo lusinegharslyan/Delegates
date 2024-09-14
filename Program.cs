@@ -422,10 +422,8 @@ namespace Delegates
         }
 
 
-        public static List<Car> Filter(List<Car> cars, List<Car> params)
-        {
-            return cars.Where((car) => { car.Mark==params.Mark && car.Color==params.Color && car.Year ==params.Year && car.Price ==params.Price).ToList()};
-        }
+       
+
 
 
 
